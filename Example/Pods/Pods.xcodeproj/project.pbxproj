@@ -60,6 +60,20 @@
 		9728E3599A6E68406F0D1E7F5CAF8F59 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA571260246C297FF3BF865BC81EB73 /* Filter.swift */; };
 		9E7786C034F0E0A6B5F0A0E6BE7D7E4A /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB033CD3A0E6CBA4812B0C53EAD11A4 /* BeEmpty.swift */; };
 		9FF58CC9608DECE37E73A66DB33BC86A /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF2E37ECA7D560154734411E383351 /* QuickSpec.m */; };
+		A3D014FE1C00195F00A22ABB /* NPObjectMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D014FD1C00195F00A22ABB /* NPObjectMapping.swift */; };
+		A3D014FF1C00195F00A22ABB /* NPObjectMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D014FD1C00195F00A22ABB /* NPObjectMapping.swift */; };
+		A3D015011C00199E00A22ABB /* NPRelationshipMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015001C00199E00A22ABB /* NPRelationshipMapping.swift */; };
+		A3D015021C00199E00A22ABB /* NPRelationshipMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015001C00199E00A22ABB /* NPRelationshipMapping.swift */; };
+		A3D015041C0019B500A22ABB /* NPValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015031C0019B500A22ABB /* NPValueTransformer.swift */; };
+		A3D015051C0019B500A22ABB /* NPValueTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015031C0019B500A22ABB /* NPValueTransformer.swift */; };
+		A3D015071C001A0900A22ABB /* NPMappableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015061C001A0900A22ABB /* NPMappableObject.swift */; };
+		A3D015081C001A0900A22ABB /* NPMappableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015061C001A0900A22ABB /* NPMappableObject.swift */; };
+		A3D0150A1C001AEF00A22ABB /* NPAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015091C001AEF00A22ABB /* NPAPIClient.swift */; };
+		A3D0150B1C001AEF00A22ABB /* NPAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015091C001AEF00A22ABB /* NPAPIClient.swift */; };
+		A3D0150D1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */; };
+		A3D0150E1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */; };
+		A3D015101C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */; };
+		A3D015111C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */; };
 		AAFFE3CA0A9A8EB29B4F0783176A6BF2 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5A5A333BAD77C6858EA7A6B22E3C2 /* World.swift */; };
 		AB30C06CFDC48617620C45E7BA5B1900 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B4C38E04A5A954DDDE40E248001F /* Configuration.swift */; };
 		AF9BCBDB2C2B5B83624186F4FA0AEF78 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3A3FA130DF2640EB905BF58B3A65A /* Example.swift */; };
@@ -196,6 +210,13 @@
 		9D8CA556B11E14ADF7CFB82217E5F0BC /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Nimble/DSL.swift; sourceTree = "<group>"; };
 		9DA571260246C297FF3BF865BC81EB73 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Quick/Filter.swift; sourceTree = "<group>"; };
 		9FD8D960C2BAD2A1239E80A08ECBFC30 /* Pods-Nonpareil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nonpareil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D014FD1C00195F00A22ABB /* NPObjectMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPObjectMapping.swift; sourceTree = "<group>"; };
+		A3D015001C00199E00A22ABB /* NPRelationshipMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPRelationshipMapping.swift; sourceTree = "<group>"; };
+		A3D015031C0019B500A22ABB /* NPValueTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPValueTransformer.swift; sourceTree = "<group>"; };
+		A3D015061C001A0900A22ABB /* NPMappableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPMappableObject.swift; sourceTree = "<group>"; };
+		A3D015091C001AEF00A22ABB /* NPAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPAPIClient.swift; sourceTree = "<group>"; };
+		A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPEndpointRequest.swift; sourceTree = "<group>"; };
+		A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPNetworkingManager.swift; sourceTree = "<group>"; };
 		A3D7B932FA3E6B07C1243E405B8D8B70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6946C6955BBD5B16D364A92D97A81C5 /* Pods-Nonpareil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nonpareil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A7514C3EFC29B35F3F2B6921359CC630 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
@@ -502,6 +523,10 @@
 		A3D014FB1C0013D200A22ABB /* Mapping */ = {
 			isa = PBXGroup;
 			children = (
+				A3D014FD1C00195F00A22ABB /* NPObjectMapping.swift */,
+				A3D015001C00199E00A22ABB /* NPRelationshipMapping.swift */,
+				A3D015031C0019B500A22ABB /* NPValueTransformer.swift */,
+				A3D015061C001A0900A22ABB /* NPMappableObject.swift */,
 			);
 			name = Mapping;
 			sourceTree = "<group>";
@@ -509,6 +534,9 @@
 		A3D014FC1C0013ED00A22ABB /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				A3D015091C001AEF00A22ABB /* NPAPIClient.swift */,
+				A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */,
+				A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -736,7 +764,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -784,6 +812,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0180529671E3605307FD2570814AC675 /* Nonpareil-dummy.m in Sources */,
+				A3D015051C0019B500A22ABB /* NPValueTransformer.swift in Sources */,
+				A3D0150E1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */,
+				A3D015081C001A0900A22ABB /* NPMappableObject.swift in Sources */,
+				A3D015111C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */,
+				A3D014FF1C00195F00A22ABB /* NPObjectMapping.swift in Sources */,
+				A3D015021C00199E00A22ABB /* NPRelationshipMapping.swift in Sources */,
+				A3D0150B1C001AEF00A22ABB /* NPAPIClient.swift in Sources */,
 				84C8E8DD1BDA3471964B5151EFA955C2 /* NPUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -853,12 +888,14 @@
 				1E28F9362956B758C4C981D3C1129C90 /* BeGreaterThan.swift in Sources */,
 				33264C6A7A3536AD91EF42B3E8CC8220 /* BeGreaterThanOrEqualTo.swift in Sources */,
 				7680F08C43B965EC873D26E6AD854C9F /* BeIdenticalTo.swift in Sources */,
+				A3D015041C0019B500A22ABB /* NPValueTransformer.swift in Sources */,
 				BCB53F24DCADF12601B8BA90AE3190AE /* BeLessThan.swift in Sources */,
 				4E87C6AE24AB15700A39FC24A2F1C93B /* BeLessThanOrEqual.swift in Sources */,
 				02DF5BD2281BA10105A447F95FCF8CF3 /* BeLogical.swift in Sources */,
 				F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */,
 				B41E8E775408ACE233F29CE93388B270 /* Contain.swift in Sources */,
 				DEE170DD3064F7343884A4016546B762 /* DSL+Wait.swift in Sources */,
+				A3D014FE1C00195F00A22ABB /* NPObjectMapping.swift in Sources */,
 				B0A26F58BA3E6222E50AE5AC883B8EAF /* DSL.m in Sources */,
 				58EBA2C1A43283FB2188AB1FB592D32B /* DSL.swift in Sources */,
 				3A92AEE86034356AF8987F20EE1F82DF /* EndWith.swift in Sources */,
@@ -867,16 +904,21 @@
 				C63AB521EA514A811A167E507C0CF9AD /* Expression.swift in Sources */,
 				0492354DA7EF0C9068F7B4E8F74001B0 /* FailureMessage.swift in Sources */,
 				D7B45D4600C6166C124C0A926EE65284 /* Functional.swift in Sources */,
+				A3D015071C001A0900A22ABB /* NPMappableObject.swift in Sources */,
 				BB4F35062294C1A461DA3CEF6306A1DB /* HaveCount.swift in Sources */,
 				E36C5201AE7F1CBB25F9D2E7CBFC3C20 /* Match.swift in Sources */,
 				3AEAC447B09E7AABC140654C8529BC94 /* MatcherFunc.swift in Sources */,
 				C9AC658F3FCB67B50E96313C2687B33D /* MatcherProtocols.swift in Sources */,
 				73695FA6A6CDFBB13C0CC73C2E5126C0 /* Nimble-dummy.m in Sources */,
 				831D33A4C5C5BBC1EC158D9A236C61D7 /* NimbleXCTestHandler.swift in Sources */,
+				A3D015011C00199E00A22ABB /* NPRelationshipMapping.swift in Sources */,
+				A3D015101C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */,
 				9187EEC2982DB82AD8D3A7001AA647D6 /* NMBExceptionCapture.m in Sources */,
 				CD9D31B6063C50689EAC2A0745C282DC /* ObjCExpectation.swift in Sources */,
 				7BFD25B1BB1116D8AC47E2C3874C5B76 /* ObjCMatcher.swift in Sources */,
 				8D0BF52FF564A170A3D1DE28C27B233E /* Poll.swift in Sources */,
+				A3D0150A1C001AEF00A22ABB /* NPAPIClient.swift in Sources */,
+				A3D0150D1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */,
 				FFC311AC1E19A23E0EB7B1B3A7A5A744 /* RaisesException.swift in Sources */,
 				7DA9FF8513AA48310B15A0744A541818 /* SourceLocation.swift in Sources */,
 				F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */,
@@ -941,6 +983,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Nonpareil_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1003,6 +1046,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Quick;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1033,6 +1077,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Nonpareil_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1060,6 +1105,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Nimble;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1088,6 +1134,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Nimble;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1115,6 +1162,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1169,6 +1217,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Nonpareil_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1196,6 +1245,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nonpareil/Nonpareil.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Nonpareil;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1223,6 +1273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Nonpareil/Nonpareil.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Nonpareil;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1263,6 +1314,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Quick;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1294,6 +1346,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_Nonpareil_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
