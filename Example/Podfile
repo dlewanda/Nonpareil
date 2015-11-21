@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Nonpareil_Example', :exclusive => true do
+  pod "Nonpareil", :path => "../"
+end
+
+target 'Nonpareil_Tests', :exclusive => true do
+  pod "Nonpareil", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
