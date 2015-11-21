@@ -1,0 +1,20 @@
+PODS:
+  - Nimble (3.0.0)
+  - Nonpareil (0.1.0)
+  - Quick (0.3.1)
+
+DEPENDENCIES:
+  - Nimble
+  - Nonpareil (from `../`)
+  - Quick (~> 0.3.1)
+
+EXTERNAL SOURCES:
+  Nonpareil:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Nonpareil: 06fea5252320608ac24af6c05a4b88f9472490ec
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+
+COCOAPODS: 0.39.0

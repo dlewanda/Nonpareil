@@ -1,0 +1,6 @@
+framework module Pods_Nonpareil_Tests {
+  umbrella header "Pods-Nonpareil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Nonpareil {
+  umbrella header "Nonpareil-umbrella.h"
+
+  export *
+  module * { export * }
+}
