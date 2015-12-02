@@ -74,6 +74,10 @@
 		A3D0150E1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */; };
 		A3D015101C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */; };
 		A3D015111C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */; };
+		A3D015151C0E917100A22ABB /* NSDictionary+NP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015141C0E917100A22ABB /* NSDictionary+NP.swift */; };
+		A3D015161C0E917100A22ABB /* NSDictionary+NP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015141C0E917100A22ABB /* NSDictionary+NP.swift */; };
+		A3D015181C0EA2BB00A22ABB /* NSString+NP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015171C0EA2BB00A22ABB /* NSString+NP.swift */; };
+		A3D015191C0EA2BB00A22ABB /* NSString+NP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D015171C0EA2BB00A22ABB /* NSString+NP.swift */; };
 		AAFFE3CA0A9A8EB29B4F0783176A6BF2 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5A5A333BAD77C6858EA7A6B22E3C2 /* World.swift */; };
 		AB30C06CFDC48617620C45E7BA5B1900 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B0B4C38E04A5A954DDDE40E248001F /* Configuration.swift */; };
 		AF9BCBDB2C2B5B83624186F4FA0AEF78 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3A3FA130DF2640EB905BF58B3A65A /* Example.swift */; };
@@ -217,6 +221,8 @@
 		A3D015091C001AEF00A22ABB /* NPAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPAPIClient.swift; sourceTree = "<group>"; };
 		A3D0150C1C001B0100A22ABB /* NPEndpointRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPEndpointRequest.swift; sourceTree = "<group>"; };
 		A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPNetworkingManager.swift; sourceTree = "<group>"; };
+		A3D015141C0E917100A22ABB /* NSDictionary+NP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+NP.swift"; sourceTree = "<group>"; };
+		A3D015171C0EA2BB00A22ABB /* NSString+NP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+NP.swift"; sourceTree = "<group>"; };
 		A3D7B932FA3E6B07C1243E405B8D8B70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6946C6955BBD5B16D364A92D97A81C5 /* Pods-Nonpareil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nonpareil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A7514C3EFC29B35F3F2B6921359CC630 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
@@ -474,6 +480,7 @@
 		794337675CEF8E2B2728AF8C2E8FB39B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A3D015131C0E914E00A22ABB /* Extensions */,
 				A3D014FB1C0013D200A22ABB /* Mapping */,
 				A3D014FC1C0013ED00A22ABB /* Networking */,
 				38CCA041A02CC1404474A29551941EB4 /* NPUtils.swift */,
@@ -539,6 +546,15 @@
 				A3D0150F1C001B1C00A22ABB /* NPNetworkingManager.swift */,
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		A3D015131C0E914E00A22ABB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3D015141C0E917100A22ABB /* NSDictionary+NP.swift */,
+				A3D015171C0EA2BB00A22ABB /* NSString+NP.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		AA67B467B5FC4346E46A2D423978EC8D /* Support Files */ = {
@@ -813,6 +829,8 @@
 			files = (
 				0180529671E3605307FD2570814AC675 /* Nonpareil-dummy.m in Sources */,
 				A3D015051C0019B500A22ABB /* NPValueTransformer.swift in Sources */,
+				A3D015191C0EA2BB00A22ABB /* NSString+NP.swift in Sources */,
+				A3D015161C0E917100A22ABB /* NSDictionary+NP.swift in Sources */,
 				A3D0150E1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */,
 				A3D015081C001A0900A22ABB /* NPMappableObject.swift in Sources */,
 				A3D015111C001B1C00A22ABB /* NPNetworkingManager.swift in Sources */,
@@ -883,6 +901,7 @@
 				77128C0365A98E3BAC038A915B38791C /* BeAKindOf.swift in Sources */,
 				7A6E2730A25A55D8DFA74D3D7CB005EF /* BeAnInstanceOf.swift in Sources */,
 				B905718B2501DDA22F2AE73CB6E76E6B /* BeCloseTo.swift in Sources */,
+				A3D015151C0E917100A22ABB /* NSDictionary+NP.swift in Sources */,
 				9E7786C034F0E0A6B5F0A0E6BE7D7E4A /* BeEmpty.swift in Sources */,
 				9646787942A85613FE77F45794E9B5CD /* BeginWith.swift in Sources */,
 				1E28F9362956B758C4C981D3C1129C90 /* BeGreaterThan.swift in Sources */,
@@ -921,6 +940,7 @@
 				A3D0150D1C001B0100A22ABB /* NPEndpointRequest.swift in Sources */,
 				FFC311AC1E19A23E0EB7B1B3A7A5A744 /* RaisesException.swift in Sources */,
 				7DA9FF8513AA48310B15A0744A541818 /* SourceLocation.swift in Sources */,
+				A3D015181C0EA2BB00A22ABB /* NSString+NP.swift in Sources */,
 				F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */,
 				2D3B916F7168E9412EDB95BA203A5BB4 /* ThrowError.swift in Sources */,
 			);
